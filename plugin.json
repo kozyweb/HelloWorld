@@ -1,0 +1,8 @@
+{
+    "name":"HelloWorld",
+    "description":"plentymarkets HelloWorld Plugin",
+    "namespace":"HelloWorld",
+    "author":"kozyweb",
+    "type":"template",
+    "serviceProvider":"HelloWorld\\Providers\\HelloWorldServiceProvider"
+}
