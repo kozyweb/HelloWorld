@@ -1,4 +1,4 @@
-<?hh //strict
+<?php
 
     namespace HelloWorld\Providers;
 
@@ -12,7 +12,7 @@
          * Register the service provider.
          */
 
-        public function register():void
+        public function register()
         {
             $this->getApplication()->register(HelloWorldRouteServiceProvider::class);
         }

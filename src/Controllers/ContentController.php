@@ -1,5 +1,4 @@
-<?hh //strict
-
+<?php
     namespace HelloWorld\Controllers;
 
 

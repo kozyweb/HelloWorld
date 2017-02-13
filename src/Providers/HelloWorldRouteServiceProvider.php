@@ -1,4 +1,4 @@
-<?hh //strict
+<?php
 
     namespace HelloWorld\Providers;
 
@@ -8,7 +8,7 @@
 
     class HelloWorldRouteServiceProvider extends RouteServiceProvider
     {
-        public function map(Router $router):void
+        public function map(Router $router)
         {
             $router->get('hello','HelloWorld\Controllers\ContentController@sayHello');
         }
